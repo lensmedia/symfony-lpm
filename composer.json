@@ -1,0 +1,22 @@
+{
+    "name": "lensmedia/symfony-lpm",
+    "description": "Lens Package Manager related things to make life easier.",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Lens\\Bundle\\LpmBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jenne van der Meer",
+            "email": "jennevdmeer@impulze.net"
+        }
+    ],
+    "require": {
+        "symfony/serializer": "^5.4|^6.0",
+        "symfony/framework-bundle": "^5.4|^6.0",
+        "symfony/http-client": "^5.4|^6.0",
+        "symfony/uid": "^5.4|^6.0"
+    }
+}
